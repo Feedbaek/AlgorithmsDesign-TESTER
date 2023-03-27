@@ -9,8 +9,8 @@
 #include <algorithm>
 #include <utility>
 #include <experimental/filesystem>
-#define EASY 10
-#define HARD 1000
+#define EASY 9
+#define HARD 999
 
 using namespace std;
 
@@ -61,6 +61,7 @@ int main(int argc, char** argv) {
 			n = rng() % EASY;
 		else
 			n = HARD;
+		++n;
 
 		fputs((to_string(n) + "\n").c_str(), fp);
 
