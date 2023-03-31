@@ -87,6 +87,7 @@ done
 echo "\n\ncheck time complexity"
 time ./${NAME} < ./bigInput/input1.txt
 time ./${NAME} < ./bigInput/input2.txt
+time ./${NAME} < ./bigInput/input3.txt
 
 echo "\n==================== diff_log.txt ===================="
 cat diff_log.txt
