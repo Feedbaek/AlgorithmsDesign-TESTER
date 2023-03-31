@@ -18,7 +18,7 @@ g++ make_test.cpp -o make_test
 
 
 echo  "\n#################### default test ####################"
-for num in {1..3}
+for num in {1..4}
 do
 	echo "\n--------------------\n"
 	echo "test${num}.txt :"
