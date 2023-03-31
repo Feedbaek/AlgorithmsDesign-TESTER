@@ -80,7 +80,7 @@ int main(int argc, char** argv) {
 			int u = e.first, v = e.second;
 			if (dsu.find(u) != dsu.find(v)) {
 				// 랜덤 가중치 부여
-				int weight = rng() % 100001 - 50000;
+				int weight = rng() % 20001 - 10000;
 				string str = to_string(u) + " " + to_string(v) + " " + to_string(weight) + "\n";
 				fputs(str.c_str(), fp);
 				dsu.merge(u, v);
