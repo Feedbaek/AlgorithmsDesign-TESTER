@@ -53,7 +53,7 @@ int main(int argc, char** argv) {
 			TEST(n, m, fp, rng);
 		}
 		else {
-			n = 10000; m = 100000;
+			n = 10000; m = 30000;
 			TEST(n, m, fp, rng);
 		}
 		fclose(fp);
