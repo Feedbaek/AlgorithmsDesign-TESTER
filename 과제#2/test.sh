@@ -1,7 +1,7 @@
 #!/bin/zsh
 # 파일 명
 NAME="strong"
-DEFAULT_TEST_NUM=3
+DEFAULT_TEST_NUM=8
 TEST_NUM=100
 COMPILE=g++
 
